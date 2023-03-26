@@ -8,7 +8,6 @@ diagrams_folder = Path.cwd() / 'diagrams'
 diagrams_folder.mkdir(parents=True, exist_ok=True)
 
 aws_diagram =  diagrams_folder / 'aws_web_service'
-print(aws_diagram)
 
 with Diagram(str(aws_diagram), show=False):
     ELB("lb") >> EC2("web") >> RDS("userdb")
