@@ -1,4 +1,5 @@
 # diagrams-python
+- [diagams link](https://diagrams.mingrammer.com/docs/getting-started/installation#quick-start)
 
 ## Initial set up on laptop
 1. Poetry
